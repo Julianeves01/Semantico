@@ -8,12 +8,12 @@
 body{
     font-family: 'helvetica Neue', sans-serif;
     line-height: 1.5;
-    background-color: rgba(238, 130, 238, 0.521);
-    color: rgb(255, 97, 234);
+    background-color: rgba(255, 173, 224, 0.521);
+    color: rgb(0, 0, 0);
 }
 /*Cabeçalho do site*/
 .site-header {
-    background-color: azure;
+    background-color: #e40d7191;
     color: black;
     padding: 1rem 0;
     text-align: center;
@@ -22,4 +22,10 @@ body{
 .site-title {
     margin-bottom: 10px;
     font-size: 2rem;
+}
+
+.main-nav  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
