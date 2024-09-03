@@ -1,5 +1,4 @@
 /*Reset básico para consistência entre navegadores*/
-
 *{
     margin: 0%;
     padding: 0%;
@@ -14,7 +13,7 @@ body{
 /*Cabeçalho do site*/
 .site-header {
     background-color: #e40d7191;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 1rem 0;
     text-align: center;
 }
@@ -28,4 +27,115 @@ body{
     list-style: none;
     display: flex;
     justify-content: center;
+}
+
+.main-nav .nav-link {
+    margin: 0 15px;
+}
+
+.main-nav .nav-link{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: bold;
+    transition: color 0.3s;
+}
+
+.main-nav .nav-link:hover{
+    color: #e40d7191;
+}
+
+/*Conteúdo principal*/
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 30px;
+}
+
+.article {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px #e40d7191;
+    border-radius: 5px;
+}
+
+.article-header {
+    border-bottom: 2px solid #e40d7191;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.article-title {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-meta{
+    color: aquamarine;
+    font-size: 0.9rem;
+}
+
+.article-section {
+    margin-bottom: 20px;
+}
+
+.article-title{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.section-text{
+    margin-bottom: 15px;
+    color: #e40d7191;
+    line-height: 1.0;
+}
+
+.image-figure{
+    margin: 20px 0;
+}
+
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 0.10em;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: rgba(255, 79, 214, 0.342);
+    padding: 15px;
+    box-shadow: 0 2px 4px #e40d7191;
+    border-radius: 5px;
+}
+
+.sidebar-title{
+    font-size: 1.6rem;
+    color: #e40d7191;
+    margin-bottom: 10px;
+}
+
+.sidebar-text{
+    color: #e40d7191;
+    line-height: 1.5;
+}
+
+.site-footer{
+    background-color:#e40d7191;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
