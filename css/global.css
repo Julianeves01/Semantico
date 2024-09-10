@@ -134,8 +134,32 @@ body{
 
 .site-footer{
     background-color:#e40d7191;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #e40d7191;
+}
+
+.footer-copy {
+    font-size: 0.9em;
+    color: black;
 }
